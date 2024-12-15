@@ -1,0 +1,25 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.heading
+{
+    padding: 30px;
+}
+h1,p{
+    padding-bottom: 10px;
+}
+h3{
+    padding-top:15px;
+
+}
+ol{
+
+  padding-top:10px;
+}
+li{
+    padding-top:10px ;
+}

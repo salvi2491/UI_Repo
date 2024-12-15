@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Style</title>
+    <link rel="stylesheet" href="css/form_style.css">
+</head>
+<body>
+    
+    <div class="form-container">
+        <h2>User Preferences</h2>
+        <form action="#" method="post">
+         
+            <label for="theme">Choose a theme:</label>
+            <select id="theme" name="theme">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+                <option value="colorful">Colorful</option>
+            </select>
+
+         
+            <fieldset>
+                <legend>Preferred Layout:</legend>
+                <label>
+                    <input type="radio" name="layout" value="grid"> Grid
+                </label>
+                <label>
+                    <input type="radio" name="layout" value="list"> List
+                </label>
+            </fieldset>
+
+           
+            <fieldset>
+                <legend>Select Notifications:</legend>
+                <label>
+                    <input type="checkbox" name="notifications" value="email"> Email Notifications
+                </label>
+                <label>
+                    <input type="checkbox" name="notifications" value="sms"> SMS Notifications
+                </label>
+               
+            </fieldset>
+
+         
+            <button type="submit">Save </button>
+        </form>
+    </div>
+
+    
+</body>
+</html>

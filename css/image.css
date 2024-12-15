@@ -1,0 +1,40 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.gallery
+{
+    width:90%;
+    min-height: 100px;
+    margin: auto;
+    /* border: 1px solid  black; */
+    display: flex;
+}
+.img-box1{
+    width:32%;
+    height: 250px;
+    border: 1px solid  black;
+    margin-left: 10px;
+    
+}
+.img-box2{
+    width:32%;
+    height: 250px;
+    border: 1px solid  black;
+    margin: 0px 20px;
+    
+}
+.img-box3{
+    width:32%;
+    height: 250px;
+    border: 1px solid  black;
+    margin-right:10px ;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
